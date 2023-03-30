@@ -1,12 +1,12 @@
 
 .title{
- 
+    border: 2px solid red;
     width:50%;
 }
 
 .title-heading{
     letter-spacing: 0.02em;
-    font-size: 41px;
+    font-size: 46px;
    
     font-weight: 900;
 

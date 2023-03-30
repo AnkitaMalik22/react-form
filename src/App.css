@@ -1,11 +1,13 @@
-
+body{
+  background-color: #78AEFF;
+}
 .container{
   margin: 0;
   font-family:Roboto;
 
 
     width: 99vw;
-    background-color: #78AEFF;
+   
     display: flex;
     justify-content: center;
     align-items: center;
