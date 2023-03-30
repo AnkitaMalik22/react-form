@@ -1,0 +1,114 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+   
+    /* font-family: 'Roboto'; */
+    
+}
+
+.form-container .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding: 2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+   
+}
+.input{
+    width: 95%;
+    height: 20px;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.input:focus{
+    outline: none;
+    border: 1px solid #78AEFF;
+}
+.select-input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.select-input:focus{
+    outline: none;
+    border: 1px solid #78AEFF;
+}
+.select-input option {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.selected-items{
+    width: 100%;
+  display: flex;
+  align-items: flex-start;
+
+  flex-wrap: wrap;
+
+}
+.selected-item{
+   width: 50px;
+padding:  0px 10px;
+ margin-right: 0.5rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+    background-color: #DCDCDC;
+    color: #777777;
+    font-weight: bold;
+   
+    letter-spacing: 0.01em;
+    font-size:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.close{
+    font-size:12px;
+    cursor: pointer;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #B5B5B5;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+.active{
+    background-color:  #37CC8A !important;
+
+}
+.bottom-text{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: #C2C2C2;
+    font-size: 10px;
+}
+.terms{
+    color: #FF0000;
+    font-weight: bold;
+    cursor: pointer;
+}

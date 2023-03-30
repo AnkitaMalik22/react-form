@@ -1,0 +1,19 @@
+
+.title{
+ 
+    width:50%;
+}
+
+.title-heading{
+    letter-spacing: 0.02em;
+    font-size: 41px;
+   
+    font-weight: 900;
+
+}
+.title-des{
+  
+    font-size: 0.8rem;
+    letter-spacing: 0.01em;
+    line-height:1.3rem;
+}
